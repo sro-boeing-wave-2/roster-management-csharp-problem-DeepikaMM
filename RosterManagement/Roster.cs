@@ -55,8 +55,8 @@ namespace RosterManagement
             var orderByDescendingResult = from c in list
                                           orderby c
                                           select c;
-            List<string> list1 = new List<string>(orderByDescendingResult);
-            return list1;
+            List<string> updatedlist = new List<string>(orderByDescendingResult);
+            return updatedlist;
         }
 
         /// <summary>
